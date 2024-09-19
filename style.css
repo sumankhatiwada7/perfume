@@ -13,7 +13,7 @@ header{
     z-index: 100;
 }
 .navigation a{
-    position: relative;
+   
     color:white;
     padding:0px;
     margin-right:11rem;
@@ -29,6 +29,9 @@ header{
     align-items: center;
     
 }
+main{
+    background-color: #e4e3cf;
+}
 .slogan h4{
     color: #03080897;
     
@@ -38,7 +41,7 @@ header{
 
 }
 
-main{
+.cardparent{
     display:flex;
     justify-content: center;
     background-color:#e4e3cf;
@@ -135,3 +138,196 @@ width: 70%;
    
 
 }
+section  h2{
+    text-align: center;
+    font-size:40px;
+    text-transform: uppercase;
+    margin-top:20px
+}
+.aboutus p{
+    text-align: center;
+    font-size:30px;
+    margin-top: 30px;
+    text-wrap: wrap;
+    margin: 70px;
+    padding:10px;
+}
+
+section h3{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.imageparent{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.imagechild {
+    flex: 1;
+    margin: 0 10px;
+    max-width:300px;
+    height:300px;
+}
+
+.imagechild img{
+     width:100%;
+     height:100%;
+     object-fit:cover;
+    border-radius: 10px;
+    margin:30px;
+    padding:10px;
+    transition: 0.1s;
+}
+.imagechild img:hover{
+    margin-top: -10px;
+}
+.productparent{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+   
+    
+    
+}
+.productparent .card{
+    
+   
+    margin-top: 30px;
+    display:flex;
+    border-radius:14px;
+    background-color: rgb(255, 255, 255);
+    width:400px;
+    height:300px;
+    margin-left:60px;
+    
+    
+}
+
+  
+.productparent .card .image img{
+    
+    width: 205px;
+    height:300px;
+    object-fit: fit;
+    border-top-left-radius:14px;
+    border-bottom-left-radius:14px;
+    
+}
+.productparent .left-side{
+    margin-left:20px;
+    width: 70%;
+   
+    
+        
+    }
+    
+    .productparent .left-side h3{
+        color:rgba(5, 6, 6, 0.281);
+        font-weight: 300;
+        margin-top: 17px;
+        font-size:18px ;
+        padding-left: 8px;
+        text-transform: uppercase;
+    
+        margin-right:190px;
+    
+    }
+    .productparent .left-side h2{
+        font-size: 15px;
+        color:#000000;
+        
+        
+        margin-right:160px;
+       margin-top:1px;
+    }
+    .productparent .left-side p{
+        color:rgba(5, 6, 6, 0.281);
+        font-size: 10px;
+        margin-top: 8px;
+        margin-right:100px;
+    
+    }
+    .productparent .class{
+        margin-top:8px ;
+        display: flex;
+       
+        
+    }
+    .productparent .class .two{
+        font-size:22px;
+        color:rgb(41, 144, 99);
+        margin-bottom:10px;
+        margin-top: 10px;
+    
+        
+    }
+    .productparent .class .one{
+        margin-left:17px;
+        margin-top: 15px;
+        text-decoration: line-through;
+        
+    
+    }
+    .productparent  .button button{
+        width: 170px;
+        height: 30px;
+        font-size: 11px;
+        color:whitesmoke;
+        background-color: rgb(41, 144, 99);
+        border-radius: 10px;
+        text-align: center;
+        border: none;
+         
+         margin-top:10px;
+         
+         
+         align-items: center;
+    } 
+    .productparent .button button:hover{
+        background-color: aqua;
+    }
+.pr h2{
+        text-transform: uppercase;
+        margin-top: 100px;
+        margin-bottom:10px;
+    }
+    .contact-us{
+        margin-top:100px;
+        background-color: #000000;
+        height:40vh;
+
+    }
+    .parentcontactus{
+        display:flex;
+        justify-content:space-evenly;
+        align-items: center;
+        margin-top:20px ;
+        color: white;
+        
+        
+    }
+    .follow h3{
+        margin:9px;
+        margin-top:0px;
+    }
+    .icons i{
+        padding:5px;
+    }
+
+    .contact-us h2{
+        color:white;
+        text-align: center;
+        margin-top: 90px;
+    }
+    #contact-us h3{
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 30px;
+      margin-top:60px;
+    }
+        
+       
+    
